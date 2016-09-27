@@ -4,7 +4,6 @@ import './App.css';
 import Name from './components/Name';
 import Desc from './components/Desc';
 import Profile_Pic from './components/Profile_Pic';
-
 var test= "YO, WHAT'S UP"
 class App extends Component {
   render() {
@@ -17,6 +16,7 @@ class App extends Component {
 							<Name/>
 							<Desc/>
 							<Profile_Pic/>
+							<h1>{Name.value}</h1>
       </div>
     );
   }

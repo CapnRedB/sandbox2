@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+var name;
 class Name extends Component {
 	render(){
 		return(
